@@ -4,8 +4,8 @@
   <ShortName>Create React App</ShortName>
   <Description>Search Create React App</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://comnori.github.io/img/favicon/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://comnori.github.io//search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://comnori.github.io//opensearch.xml" />
-  <moz:SearchForm>https://comnori.github.io/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://comnori.github.io/create-react-app/img/favicon/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://comnori.github.io/create-react-app/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://comnori.github.io/create-react-app/opensearch.xml" />
+  <moz:SearchForm>https://comnori.github.io/create-react-app</moz:SearchForm>
 </OpenSearchDescription>

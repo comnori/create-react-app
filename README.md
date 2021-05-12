@@ -7,7 +7,7 @@ Create React App를 Fork 후 사용자화 후 사용하기 위해 작성되었�
 빌드를 위한 구성 없이 Custom React App 을 만듭니다.
 
 - [App 만들기](#creating-an-app) – 새 앱을 만드는 방법.
-- [사용자 가이드](https://facebook.github.io/create-react-app/) – How to develop apps bootstrapped with Create React App.
+- [사용자 가이드](https://comnori.github.io/create-react-app/) – Custom Creat React App 부트스트랩으로 개발하는 방법
 
 Create React App은 macOS, Windows 및 Linux에서 작동합니다.<br>
 작동에 문제가 있다면 [이슈를 등록해 주세요](https://github.com/comnori/create-react-app/issues).<br>

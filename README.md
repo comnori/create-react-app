@@ -1,6 +1,8 @@
-# Custom React App 만들기[![Build Status](https://dev.azure.com/facebook/create-react-app/_apis/build/status/facebook.create-react-app?branchName=master)](https://dev.azure.com/facebook/create-react-app/_build/latest?definitionId=1&branchName=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/facebook/create-react-app/blob/master/CONTRIBUTING.md)
+# Custom React App 만들기
 
 <img alt="Logo" align="right" src="https://create-react-app.dev/img/logo.svg" width="20%" />
+
+Create React App를 Fork 후 사용자화 후 사용하기 위해 작성되었습니다.
 
 빌드를 위한 구성 없이 Custom React App 을 만듭니다.
 
@@ -179,7 +181,7 @@ Create React App은 다음에 적합합니다.
 - Rails, Django 또는 Symfony와 같은 **서버 사이드 템플릿 프레임워크와 React를 통합** 또는 **단일 페이지 앱 구축이 아니라면** 더 유연한 [nwb](https://github.com/insin/nwb), 또는 [Neutrino](https://neutrino.js.org/)를 고려해 보세요.
   특히 Rails의 경우 [Rails Webpacker](https://github.com/rails/webpacker)을 사용할 수 있습니다. Synfony의 경우 [Symfony's webpack Encore](https://symfony.com/doc/current/frontend/encore/reactjs.html)를 사용해 보세요.
 
-- **React component 배포**가 필요하다면 [nwb](https://github.com/insin/nwb)는 [이런 방식으로](https://github.com/insin/nwb#react-components-and-libraries)할 수 있습니다. [Neutrino's react-components preset](https://neutrino.js.org/packages/react-components/) 또한 가능합니다.
+- **React component 배포**가 필요하다면 [nwb](https://github.com/insin/nwb)로 [이런 방식으로](https://github.com/insin/nwb#react-components-and-libraries)할 수 있습니다. [Neutrino's react-components preset](https://neutrino.js.org/packages/react-components/) 또한 가능합니다.
 
 - React 및 Node.js로 **서버 렌더링** 을 수행 하려면 [Next.js](https://nextjs.org/) 또는 [Razzle](https://github.com/jaredpalmer/razzle)을 확인하십시오 . Create React App은 백엔드와 무관하며 정적 HTML / JS / CSS 번들 만 생성합니다.
 

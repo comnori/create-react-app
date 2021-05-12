@@ -18,7 +18,7 @@ Create React App은 macOS, Windows 및 Linux에서 작동합니다.<br>
 `my-app` 이름의 폴더를 가진 `create-react-app` 생성
 
 ```sh
-npx create-react-app my-app --scripts-version=comnori-react-scripts
+npx create-react-app my-app --scripts-version comnori-react-scripts
 cd my-app
 npm start
 ```

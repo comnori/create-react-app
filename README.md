@@ -18,7 +18,7 @@ Create React App은 macOS, Windows 및 Linux에서 작동합니다.<br>
 `my-app` 이름의 폴더를 가진 `create-react-app` 생성
 
 ```sh
-npx create-react-app my-app --script-version fdsfdsa --template fdasf
+npx create-react-app my-app --scripts-version=comnori-react-scripts
 cd my-app
 npm start
 ```
@@ -75,7 +75,6 @@ yarn create react-app my-app
 _[`yarn create <starter-kit-package>`](https://yarnpkg.com/lang/en/docs/cli/create/) Yarn 0.25 버전 이상에서 사용 가능_
 
 현재 폴더에 `my-app` 폴더가 생성되고 해당 폴더내에 초기 프로젝트 구조 및 종속성이 설치 됩니다.
-
 
 ```
 my-app
@@ -180,7 +179,7 @@ Create React App은 다음에 적합합니다.
 - 수백 개의 종속성없이 **React를 사용** 해보고 싶다면 [단일 HTML 파일이나 온라인 샌드 박스를 사용](https://reactjs.org/docs/try-react.html)하는 것이 좋습니다 .
 
 - Rails, Django 또는 Symfony와 같은 **서버 사이드 템플릿 프레임워크와 React를 통합** 또는 **단일 페이지 앱 구축이 아니라면** 더 유연한 [nwb](https://github.com/insin/nwb), 또는 [Neutrino](https://neutrino.js.org/)를 고려해 보세요.
-특히 Rails의 경우 [Rails Webpacker](https://github.com/rails/webpacker)을 사용할 수 있습니다. Synfony의 경우 [Symfony's webpack Encore](https://symfony.com/doc/current/frontend/encore/reactjs.html)를 사용해 보세요.
+  특히 Rails의 경우 [Rails Webpacker](https://github.com/rails/webpacker)을 사용할 수 있습니다. Synfony의 경우 [Symfony's webpack Encore](https://symfony.com/doc/current/frontend/encore/reactjs.html)를 사용해 보세요.
 
 - **React component 배포**가 필요하다면 [nwb](https://github.com/insin/nwb)로 [이런 방식으로](https://github.com/insin/nwb#react-components-and-libraries)할 수 있습니다. [Neutrino's react-components preset](https://neutrino.js.org/packages/react-components/) 또한 가능합니다.
 

@@ -42,9 +42,9 @@ _([npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7
 
 ## App 만들기
 
-**개발 환경에 Node 10.16.0 이상의 버전이 필요합니다.** (서버에는 필요하지 않습니다.)
+**개발 환경에 Node 14.0.0 이상의 버전이 필요합니다.** (서버에는 필요하지 않습니다.)
 
-최신의 LTS 버전을 사용하는 것을 추천합니다.
+최신의 LTS 버전을 사용하는 것을 추천합니다. 
 
 [nvm](https://github.com/creationix/nvm#installation) (macOS/Linux) 또는 [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows)를 사용하면 프로젝트마다 Node 버전을 전환하여 사용할 수 있습니다.
 
@@ -222,4 +222,4 @@ Create React App은 커뮤니티에서 유지 관리하는 프로젝트이며 �
 
 ## License
 
-Create React App은 [MIT 라이센스](https://github.com/facebook/create-react-app/blob/master/LICENSE)가 부여 된 오픈 소스 소프트웨어 입니다 . Create React App 로고는 [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)에 따른 라이선스가 부여됩니다 .
+Create React App은 [MIT 라이센스](https://github.com/facebook/create-react-app/blob/master/LICENSE)가 부여된 오픈 소스 소프트웨어 입니다 . Create React App 로고는 [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/)에 따른 라이선스가 부여됩니다 .

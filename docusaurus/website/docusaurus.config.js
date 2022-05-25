@@ -7,12 +7,12 @@
 'use strict';
 
 const siteConfig = {
-  title: `Comnori's Create React App`,
-  tagline: 'Set up a modern web app by running one command.',
+  title: `Create React App`,
+  tagline: '명령 하나로 최신 웹 앱 구성하기',
   url: 'https://comnori.github.io',
   baseUrl: '/create-react-app/',
   projectName: 'create-react-app',
-  organizationName: 'comnori',
+  organizationName: 'FindTheBest',
   favicon: 'img/favicon/favicon.ico',
   presets: [
     [
@@ -110,7 +110,7 @@ const siteConfig = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://www.github.com/facebook/create-react-app',
+              href: 'https://www.github.com/comnori/create-react-app',
             },
           ],
         },

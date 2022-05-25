@@ -21,17 +21,17 @@ const features = [
   {
     title: 'Less to Learn',
     content:
-      "You don't need to learn and configure many build tools. Instant reloads help you focus on development. When it's time to deploy, your bundles are optimized automatically.",
+      "빌드 도구를 배우거나 설정하지 않아도 됩니다. 순간적인 재로드는 개발에 집중할 수 있도록 도와줍니다. 배포할 때 번들이 자동으로 최적화됩니다.",
   },
   {
-    title: 'Only One Dependency',
+    title: '단 하나의 종속성',
     content:
-      'Your app only needs one build dependency. We test Create React App to make sure that all of its underlying pieces work together seamlessly – no complicated version mismatches.',
+      '앱에는 단 하나의 빌드 종속성이 필요합니다. Create React App을 테스트하여 모든 기본 요소가 복잡한 버전 불일치 없이 원활하게 작동하는지 확인합니다.',
   },
   {
     title: 'No Lock-In',
     content:
-      'Under the hood, we use webpack, Babel, ESLint, and other amazing projects to power your app. If you ever want an advanced configuration, you can ”eject” from Create React App and edit their config files directly.',
+      '강력한 앱을 위해 내부적으로 webpack, Babel, ESLint 등 놀라운 프로젝트들을 사용합니다. 고급 구성이 필요한 경우 Create React App에서 "eject"하여 구성 파일을 직접 편집할 수 있습니다.',
   },
 ];
 
@@ -42,7 +42,7 @@ function Home() {
   return (
     <Layout
       permalink={'/'}
-      description={'Set up a modern web app by running one command.'}
+      description={'명령 하나로 최신 웹 앱 구성하기'}
     >
       <div className={clsx('hero hero--dark', styles.heroBanner)}>
         <div className="container">
@@ -52,13 +52,14 @@ function Home() {
             src={useBaseUrl('img/logo.svg')}
           />
           <h1 className="hero__title">{siteConfig.title}</h1>
+          <h3>by Comnori</h3>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.getStarted}>
             <Link
               className="button button--outline button--primary button--lg"
               to={useBaseUrl('docs/getting-started')}
             >
-              Get Started
+              시작하기
             </Link>
           </div>
         </div>
@@ -81,13 +82,13 @@ function Home() {
         <div className="container padding-vert--xl text--left">
           <div className="row">
             <div className="col col--4 col--offset-1">
-              <h2>Get started in seconds</h2>
+              <h2>몇 초만에 시작하기</h2>
               <p>
-                Whether you’re using React or another library, Create React App
-                lets you <strong>focus on code, not build tools</strong>.
+                React를 사용하든 다른 라이브러리를 사용하든
+                Create React App을 사용하면 빌드 도구가 아닌 <strong>코드에 집중</strong>할 수 있습니다.
                 <br />
                 <br />
-                To create a project called <i>my-app</i>, run this command:
+                <i>my-app</i> 이라는 프로젝트를 만들기 위해<br />아래 명령어를 실행하세요.
               </p>
               <CodeBlock className="language-sh">
                 npx create-react-app my-app
@@ -117,11 +118,10 @@ function Home() {
               />
             </div>
             <div className="col col--5 col--offset-1">
-              <h2>Easy to Maintain</h2>
+              <h2>손쉬운 유지관리</h2>
               <p>
-                Updating your build tooling is typically a daunting and
-                time-consuming task. When new versions of Create React App are
-                released, you can upgrade using a single command:
+                빌드 도구 업데이트는 일반적으로 어렵고 시간이 많이 소요되는 작업입니다.
+                Create React App의 새 버전이 출시되면 명령어 한줄로 업그레이드할 수 있습니다.
               </p>
               <CodeBlock className="language-sh">
                 npm install react-scripts@latest

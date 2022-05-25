@@ -208,7 +208,7 @@ Create React App은 커뮤니티에서 유지 관리하는 프로젝트이며 �
 ## Credits
 
 이 프로젝트에 [기여](CONTRIBUTING.md)해 주신 모든 분들에게 감사드립니다..<br>
-<a href="https://github.com/facebook/create-react-app/graphs/contributors"><img src="https://opencollective.com/create-react-app/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/comnori/create-react-app/graphs/contributors"><img src="https://opencollective.com/create-react-app/contributors.svg?width=890&button=false" /></a>
 
 문서를 호스팅 해 주신 [Netlify](https://www.netlify.com/)에 감사드립니다.
 

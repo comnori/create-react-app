@@ -136,7 +136,7 @@ function init() {
       );
       console.log(
         `      ${chalk.cyan(
-          'https://github.com/facebook/create-react-app/issues/new'
+          'https://github.com/comnori/create-react-app/issues/new'
         )}`
       );
       console.log();

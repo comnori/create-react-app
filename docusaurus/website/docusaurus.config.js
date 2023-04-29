@@ -22,7 +22,7 @@ const siteConfig = {
           path: '../docs',
           sidebarPath: require.resolve('./sidebars.json'),
           editUrl:
-            'https://github.com/facebook/create-react-app/edit/main/docusaurus/website',
+            'https://github.com/comnori/create-react-app/edit/main/docusaurus/website',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -93,7 +93,7 @@ const siteConfig = {
             },
             {
               label: 'GitHub Discussions',
-              href: 'https://github.com/facebook/create-react-app/discussions',
+              href: 'https://github.com/comnori/create-react-app/discussions',
             },
             {
               label: 'Twitter',
